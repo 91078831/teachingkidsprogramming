@@ -1,9 +1,14 @@
 package org.teachingkidsprogramming.section09final;
 
+import org.teachingkidsprogramming.recipes.inDevelopment.forLoopUpdate;
+
+import sun.applet.Main;
+
 public class FizzBuzz
 {
-  //   For the whole numbers from 1 to 100, print either that number, or, 
-  //    If that number is divisible by 3, then print the word 'Fizz', 
+  //   For the whole numbers from 1 to 100, print either that number, or,
+  //    If that number is divisible by 3, then print the word 'Fizz',
+  FizzBuzz',
   //    If that number is divisible by 5, then print the word 'Buzz', 
   //    If that number is divisible by 3 and 5, then print the word 'FizzBuzz'
   //

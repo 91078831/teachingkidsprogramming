@@ -1,19 +1,22 @@
 package org.teachingkidsprogramming.section01forloops;
 
+import org.teachingextensions.logo.Tortoise;
+import org.teachingextensions.logo.utils.TKPLogoUtils.TKPLogo;
+
 public class MakeALogo
 {
   public static int YValue = 300;
   public static int XValue = 100;
   public static void main(String[] args)
   {
-    //  Show the Tortoise --#1
-    //  Make the Tortoise draw a line as fast as possible --#2
-    //  Setup the Color Wheel --#3 HINT: Use the TKPLogo object
-    //  Draw a TKP 'T' --#4
-    //  Draw a left bracket --#8
-    //  Draw a TKP 'K' --#5
-    //  Draw a right bracket --#9
-    //  Draw an outer TKP 'P' --#6
-    //  Draw an inner TKP 'P' --#7
+    Tortoise.show();
+    Tortoise.setSpeed(10);
+    TKPLogo.setupColorWheel();
+    TKPLogo.draw_tkp_T();
+    TKPLogo.drawLeftBracket();
+    TKPLogo.draw_tkp_K();
+    TKPLogo.drawRightBracket();
+    TKPLogo.draw_outer_tkp_P();
+    TKPLogo.draw_inner_tkp_P();
   }
 }
